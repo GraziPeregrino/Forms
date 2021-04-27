@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Cambria';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.app {
+    background-color:rgb(243, 237, 230);
+    padding: 30px;
+    height: vh;
+
+}
+
+.todo-list{
+background-color:black;    
+border-radius: 25px;
+padding: 5px;
+max-width: 400px;
+}
+
+.todo{
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+    padding: 3px 10px;
+    font-size: 24px;
+    margin-bottom: 6px;
+    border-radius: 90px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 90px;
+    box-shadow:none;
+    padding: 1rem;
+    height: 2.25em;
+    font-size: 24px;
+}
+.completedButton:hover{
+    color: rgb(255, 5, 5);
+}
+.completedButton {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    display: inline-block;
+
+}
